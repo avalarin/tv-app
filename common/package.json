@@ -1,0 +1,13 @@
+{
+  "name": "tv-app-common",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3",
+    "ws": "^7.2.0"
+  }
+}

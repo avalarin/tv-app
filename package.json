@@ -1,0 +1,16 @@
+{
+  "name": "tv-app",
+  "private": true,
+  "main": "hub/src/index.js",
+  "workspaces": [
+    "common",
+    "web",
+    "hub"
+  ],
+  "scripts": {
+    "start-hub": "yarn --cwd ./hub start",
+    "start-web": "yarn --cwd ./web start",
+
+    "build": "bash ./scripts/build.sh"
+  }
+}

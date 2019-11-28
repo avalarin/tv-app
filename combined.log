@@ -1,0 +1,626 @@
+{"message":"Listening on http://localhost:37144","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:37432","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:35884","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"appName\":\"test\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"988b2c15-7255-40f3-8320-9cc55d5cae6b","message":"Received: {\"role\":\"display\",\"appName\":\"test\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"988b2c15-7255-40f3-8320-9cc55d5cae6b","message":"Sending: {\"id\":\"0a09547e-f39f-48c1-a629-6e5f5b9e3608\",\"role\":\"display\",\"appName\":\"test\",\"reconnectId\":\"b033de2a-6261-4680-a45e-41b4b949be18\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"0a09547e-f39f-48c1-a629-6e5f5b9e3608\",\"role\":\"display\",\"appName\":\"test\",\"reconnectId\":\"b033de2a-6261-4680-a45e-41b4b949be18\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"id\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"role\":\"display\",\"reconnectId\":\"0a4b28af-058b-400b-bf6a-f3752541db92\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f9896ac4-1ee8-4514-b15d-58e02410dbe6","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"role\":\"display\",\"reconnectId\":\"0a4b28af-058b-400b-bf6a-f3752541db92\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:36020","level":"info","service":"tv-app-hub"}
+{"connection":"f9896ac4-1ee8-4514-b15d-58e02410dbe6","message":"Sending: {\"id\":\"541d8863-2103-4d5b-981c-68bd7d67b55e\",\"role\":\"display\",\"reconnectId\":\"ffb2fbb1-4370-494a-887a-52e473aaa2f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"541d8863-2103-4d5b-981c-68bd7d67b55e\",\"role\":\"display\",\"reconnectId\":\"ffb2fbb1-4370-494a-887a-52e473aaa2f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ce6c4c5e-020d-4b2e-94da-b34969abbd04","message":"Received: {\"role\":\"device\",\"displayId\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"from\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ce6c4c5e-020d-4b2e-94da-b34969abbd04","message":"Sending: {\"id\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"role\":\"device\",\"reconnectId\":\"788f31b0-d780-467c-9924-6a74c2866791\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"role\":\"device\",\"reconnectId\":\"788f31b0-d780-467c-9924-6a74c2866791\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"988b2c15-7255-40f3-8320-9cc55d5cae6b","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"988b2c15-7255-40f3-8320-9cc55d5cae6b","message":"Client 0a09547e-f39f-48c1-a629-6e5f5b9e3608 disconnected, because connection 988b2c15-7255-40f3-8320-9cc55d5cae6b closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 0a09547e-f39f-48c1-a629-6e5f5b9e3608 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"db91ad33-1beb-4832-a467-6ad7db0e3f02","message":"Received: {\"role\":\"device\",\"displayId\":\"d8846144-6911-42a7-8d29-736a902d00d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Sending: {\"id\":\"74da0cca-5771-4218-a445-fe5b24024162\",\"role\":\"display\",\"reconnectId\":\"b2254eb2-e794-4927-bd1b-c8fc3e3e75e8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"from\":\"c856663e-3ffc-4659-aed7-7e1691e54cc3\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"db91ad33-1beb-4832-a467-6ad7db0e3f02","message":"Sending: {\"id\":\"c856663e-3ffc-4659-aed7-7e1691e54cc3\",\"role\":\"device\",\"reconnectId\":\"b5c0546b-11ce-428d-b553-af2918d83654\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"c856663e-3ffc-4659-aed7-7e1691e54cc3\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"c856663e-3ffc-4659-aed7-7e1691e54cc3\",\"role\":\"device\",\"reconnectId\":\"b5c0546b-11ce-428d-b553-af2918d83654\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Sending: {\"id\":\"ad396195-511d-4d8d-b81b-195179021137\",\"role\":\"display\",\"reconnectId\":\"fc7e3f57-e06f-4656-b976-4cd1f59ce53e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"ad396195-511d-4d8d-b81b-195179021137\",\"role\":\"display\",\"reconnectId\":\"fc7e3f57-e06f-4656-b976-4cd1f59ce53e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ce6c4c5e-020d-4b2e-94da-b34969abbd04","message":"Received: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"74da0cca-5771-4218-a445-fe5b24024162\",\"role\":\"display\",\"reconnectId\":\"b2254eb2-e794-4927-bd1b-c8fc3e3e75e8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"from\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"direction\":\"device2display\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"direction\":\"device2display\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"ad396195-511d-4d8d-b81b-195179021137\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f9896ac4-1ee8-4514-b15d-58e02410dbe6","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"7ca7ff44-47dd-4a4a-81bd-486d62ac0487","message":"Received: {\"role\":\"device\",\"displayId\":\"ad396195-511d-4d8d-b81b-195179021137\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f9896ac4-1ee8-4514-b15d-58e02410dbe6","message":"Client 541d8863-2103-4d5b-981c-68bd7d67b55e disconnected, because connection f9896ac4-1ee8-4514-b15d-58e02410dbe6 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 541d8863-2103-4d5b-981c-68bd7d67b55e has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"ffb2fbb1-4370-494a-887a-52e473aaa2f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Sending: {\"from\":\"c7f51b54-45b5-4475-a3d8-b878f457c88b\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7ca7ff44-47dd-4a4a-81bd-486d62ac0487","message":"Sending: {\"id\":\"c7f51b54-45b5-4475-a3d8-b878f457c88b\",\"role\":\"device\",\"reconnectId\":\"3d7b0d06-501e-48f0-b457-2e53888e0446\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"c7f51b54-45b5-4475-a3d8-b878f457c88b\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7f142bf2-9ca2-43c4-94c4-e833e7d8c901","message":"Received: {\"reconnectId\":\"ffb2fbb1-4370-494a-887a-52e473aaa2f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"c7f51b54-45b5-4475-a3d8-b878f457c88b\",\"role\":\"device\",\"reconnectId\":\"3d7b0d06-501e-48f0-b457-2e53888e0446\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7f142bf2-9ca2-43c4-94c4-e833e7d8c901","message":"Sending: {\"id\":\"541d8863-2103-4d5b-981c-68bd7d67b55e\",\"role\":\"display\",\"reconnectId\":\"084e6138-e792-47c9-8a69-fbab512f3288\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"541d8863-2103-4d5b-981c-68bd7d67b55e\",\"role\":\"display\",\"reconnectId\":\"084e6138-e792-47c9-8a69-fbab512f3288\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7ca7ff44-47dd-4a4a-81bd-486d62ac0487","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Sending: {\"id\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"role\":\"display\",\"reconnectId\":\"f646b28e-d291-40e5-bafc-fbb0b95e0147\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"role\":\"display\",\"reconnectId\":\"f646b28e-d291-40e5-bafc-fbb0b95e0147\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3741b1a6-895c-4eb0-90e7-6e66044607e7","message":"Received: {\"role\":\"device\",\"displayId\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Sending: {\"from\":\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3741b1a6-895c-4eb0-90e7-6e66044607e7","message":"Sending: {\"id\":\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"role\":\"device\",\"reconnectId\":\"8946836f-9422-45b5-b3f0-3ce7768ffafd\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"role\":\"device\",\"reconnectId\":\"8946836f-9422-45b5-b3f0-3ce7768ffafd\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"74da0cca-5771-4218-a445-fe5b24024162\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"090031b0-c2d4-4e6c-b08b-2ed1f1ddad72","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"090031b0-c2d4-4e6c-b08b-2ed1f1ddad72","message":"Sending: {\"id\":\"dfec65ac-b91d-44b5-90f0-d89b192949f2\",\"role\":\"display\",\"reconnectId\":\"6b0565c2-279a-4a8a-b612-637d90135525\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e68c691a-a070-40b9-a821-7dc162dfa214","message":"Received: {\"role\":\"device\",\"displayId\":\"74da0cca-5771-4218-a445-fe5b24024162\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"dfec65ac-b91d-44b5-90f0-d89b192949f2\",\"role\":\"display\",\"reconnectId\":\"6b0565c2-279a-4a8a-b612-637d90135525\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Sending: {\"from\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e68c691a-a070-40b9-a821-7dc162dfa214","message":"Sending: {\"id\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"role\":\"device\",\"reconnectId\":\"785e8433-5979-4f88-8c3f-6a5df15a6df8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"role\":\"device\",\"reconnectId\":\"785e8433-5979-4f88-8c3f-6a5df15a6df8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b0f1775a-ac5d-4163-9cd3-d6e1fb664a65","message":"Received: {\"role\":\"device\",\"displayId\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"6b0565c2-279a-4a8a-b612-637d90135525\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Sending: {\"from\":\"f13ec90a-9e19-4303-96dd-acc08dd1d941\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b0f1775a-ac5d-4163-9cd3-d6e1fb664a65","message":"Sending: {\"id\":\"f13ec90a-9e19-4303-96dd-acc08dd1d941\",\"role\":\"device\",\"reconnectId\":\"39422690-01b9-4247-bc4b-1e3da34f9265\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"f13ec90a-9e19-4303-96dd-acc08dd1d941\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"cfb4105f-9b7e-46a2-a44d-2b88147578e9","message":"Received: {\"reconnectId\":\"6b0565c2-279a-4a8a-b612-637d90135525\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"f13ec90a-9e19-4303-96dd-acc08dd1d941\",\"role\":\"device\",\"reconnectId\":\"39422690-01b9-4247-bc4b-1e3da34f9265\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Received: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3741b1a6-895c-4eb0-90e7-6e66044607e7","message":"Sending: {\"from\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b0f1775a-ac5d-4163-9cd3-d6e1fb664a65","message":"Sending: {\"from\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3ef79df9-facb-4c2b-b287-7d5168c77726\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"e68c691a-a070-40b9-a821-7dc162dfa214","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"e68c691a-a070-40b9-a821-7dc162dfa214","message":"Client ff4b9aab-1147-439b-b9d5-f940444b6dec disconnected, because connection e68c691a-a070-40b9-a821-7dc162dfa214 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device ff4b9aab-1147-439b-b9d5-f940444b6dec has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Sending: {\"from\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"ff4b9aab-1147-439b-b9d5-f940444b6dec\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"cfb4105f-9b7e-46a2-a44d-2b88147578e9","service":"tv-app-hub","params":{},"code":"client_still_connected","level":"error","message":"Cannot register new clientClient still connected","stack":"Error: Client still connected\n    at RegistrationController._register (/Users/a.prokopev/Projects/tv-game/hub/src/controllers/registration.js:43:15)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)"}
+{"connection":"cfb4105f-9b7e-46a2-a44d-2b88147578e9","message":"Sending: {\"error\":\"client_still_connected\",\"params\":{},\"ok\":false,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"error\":\"client_still_connected\",\"params\":{},\"ok\":false,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Sending: {\"id\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"role\":\"display\",\"reconnectId\":\"812d8d91-17a0-471f-9777-d22cfad7b7dd\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"role\":\"display\",\"reconnectId\":\"812d8d91-17a0-471f-9777-d22cfad7b7dd\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Sending: {\"id\":\"26a21387-32ed-4c8f-a80e-832f22cca0e8\",\"role\":\"display\",\"reconnectId\":\"f6e96ce2-48da-472d-83e7-e6214e932177\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"26a21387-32ed-4c8f-a80e-832f22cca0e8\",\"role\":\"display\",\"reconnectId\":\"f6e96ce2-48da-472d-83e7-e6214e932177\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"b0f1775a-ac5d-4163-9cd3-d6e1fb664a65","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"b0f1775a-ac5d-4163-9cd3-d6e1fb664a65","message":"Client f13ec90a-9e19-4303-96dd-acc08dd1d941 disconnected, because connection b0f1775a-ac5d-4163-9cd3-d6e1fb664a65 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device f13ec90a-9e19-4303-96dd-acc08dd1d941 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Sending: {\"from\":\"f13ec90a-9e19-4303-96dd-acc08dd1d941\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3741b1a6-895c-4eb0-90e7-6e66044607e7","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"3741b1a6-895c-4eb0-90e7-6e66044607e7","message":"Client cff634c4-8fec-40e7-8f65-09a51bf1eda6 disconnected, because connection 3741b1a6-895c-4eb0-90e7-6e66044607e7 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device cff634c4-8fec-40e7-8f65-09a51bf1eda6 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Sending: {\"from\":\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"20b4432b-32ca-4251-89f6-8e8cba6797d1","message":"Client 3ef79df9-facb-4c2b-b287-7d5168c77726 disconnected, because connection 20b4432b-32ca-4251-89f6-8e8cba6797d1 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 3ef79df9-facb-4c2b-b287-7d5168c77726 has been disconnected, notifying his devices: [\"cff634c4-8fec-40e7-8f65-09a51bf1eda6\",\"f13ec90a-9e19-4303-96dd-acc08dd1d941\"]","level":"info","service":"tv-app-hub"}
+{"connection":"db91ad33-1beb-4832-a467-6ad7db0e3f02","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"db91ad33-1beb-4832-a467-6ad7db0e3f02","message":"Client c856663e-3ffc-4659-aed7-7e1691e54cc3 disconnected, because connection db91ad33-1beb-4832-a467-6ad7db0e3f02 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device c856663e-3ffc-4659-aed7-7e1691e54cc3 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"from\":\"c856663e-3ffc-4659-aed7-7e1691e54cc3\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ce6c4c5e-020d-4b2e-94da-b34969abbd04","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"ce6c4c5e-020d-4b2e-94da-b34969abbd04","message":"Client 3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8 disconnected, because connection ce6c4c5e-020d-4b2e-94da-b34969abbd04 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Sending: {\"from\":\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"7d49cccf-792f-42ce-88f5-dc50fbedc071","message":"Client d8846144-6911-42a7-8d29-736a902d00d3 disconnected, because connection 7d49cccf-792f-42ce-88f5-dc50fbedc071 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display d8846144-6911-42a7-8d29-736a902d00d3 has been disconnected, notifying his devices: [\"3fe0b33d-5296-45fa-84a7-a1b45a3b7ed8\",\"c856663e-3ffc-4659-aed7-7e1691e54cc3\"]","level":"info","service":"tv-app-hub"}
+{"connection":"d6bfede9-84f3-4e27-8caf-f8a5dc71538b","message":"Received: {\"role\":\"device\",\"displayId\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Sending: {\"from\":\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d6bfede9-84f3-4e27-8caf-f8a5dc71538b","message":"Sending: {\"id\":\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\",\"role\":\"device\",\"reconnectId\":\"482ec9e3-8df9-437c-8978-39c0f4d314b6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\",\"role\":\"device\",\"reconnectId\":\"482ec9e3-8df9-437c-8978-39c0f4d314b6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"26a21387-32ed-4c8f-a80e-832f22cca0e8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"95e16216-9d63-44cd-b7f1-ef9be65a0b66","message":"Received: {\"role\":\"device\",\"displayId\":\"26a21387-32ed-4c8f-a80e-832f22cca0e8\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Client 718aebc2-3785-4125-8aeb-dec48f0ba144 disconnected, because connection 5ce75e8a-7fb2-4dd1-ab02-705a341097b8 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 718aebc2-3785-4125-8aeb-dec48f0ba144 has been disconnected, notifying his devices: [\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\"]","level":"info","service":"tv-app-hub"}
+{"connection":"d6bfede9-84f3-4e27-8caf-f8a5dc71538b","message":"Sending: {\"from\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"718aebc2-3785-4125-8aeb-dec48f0ba144\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Sending: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"95e16216-9d63-44cd-b7f1-ef9be65a0b66","message":"Sending: {\"id\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"role\":\"device\",\"reconnectId\":\"d37df2f7-1ae8-47c0-ab47-68be980072af\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"role\":\"device\",\"reconnectId\":\"d37df2f7-1ae8-47c0-ab47-68be980072af\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"95e16216-9d63-44cd-b7f1-ef9be65a0b66","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"95e16216-9d63-44cd-b7f1-ef9be65a0b66","message":"Client 5ff1bc1f-84dc-4668-b34d-caee891b38dd disconnected, because connection 95e16216-9d63-44cd-b7f1-ef9be65a0b66 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 5ff1bc1f-84dc-4668-b34d-caee891b38dd has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Sending: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"d37df2f7-1ae8-47c0-ab47-68be980072af\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"86d83c1e-0017-4b7a-9d53-9bdd58214fde","message":"Received: {\"reconnectId\":\"d37df2f7-1ae8-47c0-ab47-68be980072af\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Sending: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"86d83c1e-0017-4b7a-9d53-9bdd58214fde","message":"Sending: {\"id\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"role\":\"device\",\"reconnectId\":\"d1d18e94-991c-423e-91df-9e1be83dc8c9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"role\":\"device\",\"reconnectId\":\"d1d18e94-991c-423e-91df-9e1be83dc8c9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"d6bfede9-84f3-4e27-8caf-f8a5dc71538b","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"d6bfede9-84f3-4e27-8caf-f8a5dc71538b","message":"Client e9d5ea4f-bdad-4847-abc7-a523bcfe6855 disconnected, because connection d6bfede9-84f3-4e27-8caf-f8a5dc71538b closed","level":"info","service":"tv-app-hub"}
+{"message":"Device e9d5ea4f-bdad-4847-abc7-a523bcfe6855 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"5ce75e8a-7fb2-4dd1-ab02-705a341097b8","message":"Sending: {\"from\":\"e9d5ea4f-bdad-4847-abc7-a523bcfe6855\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"f60e44e8-a8ac-46a2-9f4f-298926500edb","message":"Client 74da0cca-5771-4218-a445-fe5b24024162 disconnected, because connection f60e44e8-a8ac-46a2-9f4f-298926500edb closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 74da0cca-5771-4218-a445-fe5b24024162 has been disconnected, notifying his devices: [\"ff4b9aab-1147-439b-b9d5-f940444b6dec\"]","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Sending: {\"id\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"role\":\"display\",\"reconnectId\":\"3453e874-baa5-426a-ade8-eb8886b26c29\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"role\":\"display\",\"reconnectId\":\"3453e874-baa5-426a-ade8-eb8886b26c29\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Received: {\"role\":\"device\",\"displayId\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Sending: {\"from\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Sending: {\"id\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\",\"role\":\"device\",\"reconnectId\":\"69a1186d-8756-4c59-8790-a8766280a8f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\",\"role\":\"device\",\"reconnectId\":\"69a1186d-8756-4c59-8790-a8766280a8f6\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7ca7ff44-47dd-4a4a-81bd-486d62ac0487","message":"Client c7f51b54-45b5-4475-a3d8-b878f457c88b disconnected, because connection 7ca7ff44-47dd-4a4a-81bd-486d62ac0487 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device c7f51b54-45b5-4475-a3d8-b878f457c88b has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Sending: {\"from\":\"c7f51b54-45b5-4475-a3d8-b878f457c88b\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"20821e12-1b8f-4ac0-80dc-8b03ee596b50","message":"Client ad396195-511d-4d8d-b81b-195179021137 disconnected, because connection 20821e12-1b8f-4ac0-80dc-8b03ee596b50 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display ad396195-511d-4d8d-b81b-195179021137 has been disconnected, notifying his devices: [\"c7f51b54-45b5-4475-a3d8-b878f457c88b\"]","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"fba7a9f6-0ec1-4509-aa0d-da36eb77b7d8","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"fba7a9f6-0ec1-4509-aa0d-da36eb77b7d8","message":"Client undefined disconnected, because connection fba7a9f6-0ec1-4509-aa0d-da36eb77b7d8 closed","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Client 3a1e34e3-7c10-44ea-9941-02dbe0ae6b47 disconnected, because connection c8eb5552-8119-4825-b645-9002e8c74741 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 3a1e34e3-7c10-44ea-9941-02dbe0ae6b47 has been disconnected, notifying his devices: [\"11d014af-c405-4568-acd0-5d9bbfdce1df\"]","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Sending: {\"from\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"3453e874-baa5-426a-ade8-eb8886b26c29\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"14f2fa63-53c5-4b61-a238-69576ca64a92","message":"Received: {\"reconnectId\":\"3453e874-baa5-426a-ade8-eb8886b26c29\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Sending: {\"from\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"14f2fa63-53c5-4b61-a238-69576ca64a92","message":"Sending: {\"id\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"role\":\"display\",\"reconnectId\":\"9ff55913-e67d-466e-b774-ed7734060ce4\",\"devices\":[{\"id\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"role\":\"display\",\"reconnectId\":\"9ff55913-e67d-466e-b774-ed7734060ce4\",\"devices\":[{\"id\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Sending: {\"id\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"role\":\"display\",\"reconnectId\":\"c076a7dc-a449-4445-96cd-abb3c0c5ba8e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"role\":\"display\",\"reconnectId\":\"c076a7dc-a449-4445-96cd-abb3c0c5ba8e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Received: {\"role\":\"device\",\"displayId\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Sending: {\"from\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Sending: {\"id\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\",\"role\":\"device\",\"reconnectId\":\"da5a99aa-f524-4be9-8454-f830a3a3558e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\",\"role\":\"device\",\"reconnectId\":\"da5a99aa-f524-4be9-8454-f830a3a3558e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Client a80cd24b-1323-4254-8212-f1ba253e0948 disconnected, because connection 855b11d2-6da3-46be-ad89-899858bca6d5 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display a80cd24b-1323-4254-8212-f1ba253e0948 has been disconnected, notifying his devices: [\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\"]","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Sending: {\"from\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"c076a7dc-a449-4445-96cd-abb3c0c5ba8e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"cc8e0cdb-ee1c-4deb-bc3f-64a347c804ce","message":"Received: {\"reconnectId\":\"c076a7dc-a449-4445-96cd-abb3c0c5ba8e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Sending: {\"from\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"cc8e0cdb-ee1c-4deb-bc3f-64a347c804ce","message":"Sending: {\"id\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"role\":\"display\",\"reconnectId\":\"7cb22c52-e316-4352-bd22-e60dd8437fdd\",\"devices\":[{\"id\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"role\":\"display\",\"reconnectId\":\"7cb22c52-e316-4352-bd22-e60dd8437fdd\",\"devices\":[{\"id\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"cc8e0cdb-ee1c-4deb-bc3f-64a347c804ce","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"cc8e0cdb-ee1c-4deb-bc3f-64a347c804ce","message":"Client a80cd24b-1323-4254-8212-f1ba253e0948 disconnected, because connection cc8e0cdb-ee1c-4deb-bc3f-64a347c804ce closed","level":"info","service":"tv-app-hub"}
+{"message":"Display a80cd24b-1323-4254-8212-f1ba253e0948 has been disconnected, notifying his devices: [\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\"]","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Sending: {\"from\":\"a80cd24b-1323-4254-8212-f1ba253e0948\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"3d1c1fdc-856b-4841-af1a-e9bccb5b403e","message":"Client a75e6d0f-3d9b-4b5d-8362-fcb593219e78 disconnected, because connection 3d1c1fdc-856b-4841-af1a-e9bccb5b403e closed","level":"info","service":"tv-app-hub"}
+{"message":"Device a75e6d0f-3d9b-4b5d-8362-fcb593219e78 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"855b11d2-6da3-46be-ad89-899858bca6d5","message":"Sending: {\"from\":\"a75e6d0f-3d9b-4b5d-8362-fcb593219e78\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"14f2fa63-53c5-4b61-a238-69576ca64a92","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"14f2fa63-53c5-4b61-a238-69576ca64a92","message":"Client 3a1e34e3-7c10-44ea-9941-02dbe0ae6b47 disconnected, because connection 14f2fa63-53c5-4b61-a238-69576ca64a92 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 3a1e34e3-7c10-44ea-9941-02dbe0ae6b47 has been disconnected, notifying his devices: [\"11d014af-c405-4568-acd0-5d9bbfdce1df\"]","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Sending: {\"from\":\"3a1e34e3-7c10-44ea-9941-02dbe0ae6b47\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"983177c8-2343-40ab-b6d2-18b66a014483","message":"Client 11d014af-c405-4568-acd0-5d9bbfdce1df disconnected, because connection 983177c8-2343-40ab-b6d2-18b66a014483 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 11d014af-c405-4568-acd0-5d9bbfdce1df has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"c8eb5552-8119-4825-b645-9002e8c74741","message":"Sending: {\"from\":\"11d014af-c405-4568-acd0-5d9bbfdce1df\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"86d83c1e-0017-4b7a-9d53-9bdd58214fde","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"86d83c1e-0017-4b7a-9d53-9bdd58214fde","message":"Client 5ff1bc1f-84dc-4668-b34d-caee891b38dd disconnected, because connection 86d83c1e-0017-4b7a-9d53-9bdd58214fde closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 5ff1bc1f-84dc-4668-b34d-caee891b38dd has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Sending: {\"from\":\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"7b5aa1be-5cf0-43b7-9e1b-9643a67149be","message":"Client 26a21387-32ed-4c8f-a80e-832f22cca0e8 disconnected, because connection 7b5aa1be-5cf0-43b7-9e1b-9643a67149be closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 26a21387-32ed-4c8f-a80e-832f22cca0e8 has been disconnected, notifying his devices: [\"5ff1bc1f-84dc-4668-b34d-caee891b38dd\"]","level":"info","service":"tv-app-hub"}
+{"connection":"cfb4105f-9b7e-46a2-a44d-2b88147578e9","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"cfb4105f-9b7e-46a2-a44d-2b88147578e9","message":"Client undefined disconnected, because connection cfb4105f-9b7e-46a2-a44d-2b88147578e9 closed","level":"info","service":"tv-app-hub"}
+{"connection":"090031b0-c2d4-4e6c-b08b-2ed1f1ddad72","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"090031b0-c2d4-4e6c-b08b-2ed1f1ddad72","message":"Client dfec65ac-b91d-44b5-90f0-d89b192949f2 disconnected, because connection 090031b0-c2d4-4e6c-b08b-2ed1f1ddad72 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display dfec65ac-b91d-44b5-90f0-d89b192949f2 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"connection":"7f142bf2-9ca2-43c4-94c4-e833e7d8c901","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"7f142bf2-9ca2-43c4-94c4-e833e7d8c901","message":"Client 541d8863-2103-4d5b-981c-68bd7d67b55e disconnected, because connection 7f142bf2-9ca2-43c4-94c4-e833e7d8c901 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 541d8863-2103-4d5b-981c-68bd7d67b55e has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:37636","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:38978","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:36282","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"appName\":\"test\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d80d99e-df31-4cd7-a8f7-5fc19f1444bc","message":"Received: {\"role\":\"display\",\"appName\":\"test\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"id\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"role\":\"display\",\"reconnectId\":\"eeb9358a-b928-4601-903c-f5d66760e8f1\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d80d99e-df31-4cd7-a8f7-5fc19f1444bc","message":"Sending: {\"id\":\"b568c546-6b49-4032-84a7-afcfe23ab894\",\"role\":\"display\",\"appName\":\"test\",\"reconnectId\":\"c4b442c4-785b-45ca-9938-d327ebd2eac0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"role\":\"display\",\"reconnectId\":\"eeb9358a-b928-4601-903c-f5d66760e8f1\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"b568c546-6b49-4032-84a7-afcfe23ab894\",\"role\":\"display\",\"appName\":\"test\",\"reconnectId\":\"c4b442c4-785b-45ca-9938-d327ebd2eac0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ed97b4a3-29d9-4a00-b329-b71e519970cc","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ed97b4a3-29d9-4a00-b329-b71e519970cc","message":"Sending: {\"id\":\"0c7672d8-b390-49a0-b9f1-8dec5bd55bd2\",\"role\":\"display\",\"reconnectId\":\"a44b2ecc-a7f2-4c57-ab21-4af092edc8c3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"0c7672d8-b390-49a0-b9f1-8dec5bd55bd2\",\"role\":\"display\",\"reconnectId\":\"a44b2ecc-a7f2-4c57-ab21-4af092edc8c3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d074d872-cf86-40ab-a187-afd35f990bf3","message":"Received: {\"role\":\"device\",\"displayId\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"from\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d074d872-cf86-40ab-a187-afd35f990bf3","message":"Sending: {\"id\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"role\":\"device\",\"reconnectId\":\"e9559307-90a2-43be-bf04-d536bcb5b2e7\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"role\":\"device\",\"reconnectId\":\"e9559307-90a2-43be-bf04-d536bcb5b2e7\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"90342a09-8e6b-4b8b-8706-96b9f92ac523","message":"Received: {\"role\":\"device\",\"displayId\":\"68c62262-63cd-4102-86b4-2cd99cbdfcc0\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"from\":\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"90342a09-8e6b-4b8b-8706-96b9f92ac523","message":"Sending: {\"id\":\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\",\"role\":\"device\",\"reconnectId\":\"922c9968-f803-43bc-a719-631c3b81c0ca\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ed97b4a3-29d9-4a00-b329-b71e519970cc","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\",\"role\":\"device\",\"reconnectId\":\"922c9968-f803-43bc-a719-631c3b81c0ca\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"a44b2ecc-a7f2-4c57-ab21-4af092edc8c3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d074d872-cf86-40ab-a187-afd35f990bf3","message":"Received: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"ed97b4a3-29d9-4a00-b329-b71e519970cc","message":"Client 0c7672d8-b390-49a0-b9f1-8dec5bd55bd2 disconnected, because connection ed97b4a3-29d9-4a00-b329-b71e519970cc closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 0c7672d8-b390-49a0-b9f1-8dec5bd55bd2 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Listening on http://localhost:39662","level":"info","service":"tv-app-hub"}
+{"connection":"490412a7-0f16-4bb6-9026-ef607a657663","message":"Received: {\"reconnectId\":\"a44b2ecc-a7f2-4c57-ab21-4af092edc8c3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"from\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"direction\":\"device2display\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d80d99e-df31-4cd7-a8f7-5fc19f1444bc","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"direction\":\"device2display\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"490412a7-0f16-4bb6-9026-ef607a657663","message":"Sending: {\"id\":\"0c7672d8-b390-49a0-b9f1-8dec5bd55bd2\",\"role\":\"display\",\"reconnectId\":\"c15b50ea-813c-441d-8560-8dd9074396cc\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"7d80d99e-df31-4cd7-a8f7-5fc19f1444bc","message":"Client b568c546-6b49-4032-84a7-afcfe23ab894 disconnected, because connection 7d80d99e-df31-4cd7-a8f7-5fc19f1444bc closed","level":"info","service":"tv-app-hub"}
+{"message":"Display b568c546-6b49-4032-84a7-afcfe23ab894 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"0c7672d8-b390-49a0-b9f1-8dec5bd55bd2\",\"role\":\"display\",\"reconnectId\":\"c15b50ea-813c-441d-8560-8dd9074396cc\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Sending: {\"id\":\"08f9e7ce-ed19-4d1d-ba29-13fd203ff78a\",\"role\":\"display\",\"reconnectId\":\"a46b5f23-2896-47a4-9af0-e5c7953c6364\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"08f9e7ce-ed19-4d1d-ba29-13fd203ff78a\",\"role\":\"display\",\"reconnectId\":\"a46b5f23-2896-47a4-9af0-e5c7953c6364\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"08f9e7ce-ed19-4d1d-ba29-13fd203ff78a\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3587d59d-2b61-41fb-aa27-b4699aeebec9","message":"Received: {\"role\":\"device\",\"displayId\":\"08f9e7ce-ed19-4d1d-ba29-13fd203ff78a\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Sending: {\"from\":\"4ae55ba1-b401-49a8-83af-6d680b565468\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3587d59d-2b61-41fb-aa27-b4699aeebec9","message":"Sending: {\"id\":\"4ae55ba1-b401-49a8-83af-6d680b565468\",\"role\":\"device\",\"reconnectId\":\"4cdc71e4-a7b2-48e0-8322-fdaadbe47709\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"4ae55ba1-b401-49a8-83af-6d680b565468\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"4ae55ba1-b401-49a8-83af-6d680b565468\",\"role\":\"device\",\"reconnectId\":\"4cdc71e4-a7b2-48e0-8322-fdaadbe47709\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"1c2808f2-a253-4fe9-987f-9a99fa82f4b7","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Sending: {\"id\":\"71aec4f0-7e64-4bfd-a283-d5d054ce7764\",\"role\":\"display\",\"reconnectId\":\"37922bd7-8be6-49c4-802a-bcb2905fda89\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"1c2808f2-a253-4fe9-987f-9a99fa82f4b7","message":"Sending: {\"id\":\"0a7c4567-1afb-4454-a9ba-589f3a56b6c4\",\"role\":\"display\",\"reconnectId\":\"2ef519e0-a6cc-4e80-ba45-d7c62bf7a75c\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"0a7c4567-1afb-4454-a9ba-589f3a56b6c4\",\"role\":\"display\",\"reconnectId\":\"2ef519e0-a6cc-4e80-ba45-d7c62bf7a75c\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Sending: {\"id\":\"09c85312-523b-4972-b721-1aff085e4120\",\"role\":\"display\",\"reconnectId\":\"adfd83bb-82ee-4e93-af07-bb985b902db2\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"09c85312-523b-4972-b721-1aff085e4120\",\"role\":\"display\",\"reconnectId\":\"adfd83bb-82ee-4e93-af07-bb985b902db2\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"71aec4f0-7e64-4bfd-a283-d5d054ce7764\",\"role\":\"display\",\"reconnectId\":\"37922bd7-8be6-49c4-802a-bcb2905fda89\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"3587d59d-2b61-41fb-aa27-b4699aeebec9","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"09c85312-523b-4972-b721-1aff085e4120\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"2ef519e0-a6cc-4e80-ba45-d7c62bf7a75c\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"72710ddd-d7e4-43b4-af3d-13d385e5f4bd","message":"Received: {\"role\":\"device\",\"displayId\":\"09c85312-523b-4972-b721-1aff085e4120\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"489bb951-b591-40a4-a3c1-d535a4c576e6","message":"Received: {\"reconnectId\":\"2ef519e0-a6cc-4e80-ba45-d7c62bf7a75c\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Sending: {\"from\":\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"72710ddd-d7e4-43b4-af3d-13d385e5f4bd","message":"Sending: {\"id\":\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"role\":\"device\",\"reconnectId\":\"79812404-d3b4-4244-ac33-57c2cd96cf72\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"role\":\"device\",\"reconnectId\":\"79812404-d3b4-4244-ac33-57c2cd96cf72\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"71aec4f0-7e64-4bfd-a283-d5d054ce7764\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d5976108-9829-400f-aaca-a7cb1536a239","message":"Received: {\"role\":\"device\",\"displayId\":\"71aec4f0-7e64-4bfd-a283-d5d054ce7764\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"09c85312-523b-4972-b721-1aff085e4120\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f020c132-b3ef-49b6-b5de-216cd2e40879","message":"Received: {\"role\":\"device\",\"displayId\":\"09c85312-523b-4972-b721-1aff085e4120\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Sending: {\"from\":\"cfc3c03e-4e6a-4b84-8b60-441eca707900\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f020c132-b3ef-49b6-b5de-216cd2e40879","message":"Sending: {\"id\":\"cfc3c03e-4e6a-4b84-8b60-441eca707900\",\"role\":\"device\",\"reconnectId\":\"92647db4-0151-456d-9997-cc5704cc9615\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"cfc3c03e-4e6a-4b84-8b60-441eca707900\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Sending: {\"from\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d5976108-9829-400f-aaca-a7cb1536a239","message":"Sending: {\"id\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"role\":\"device\",\"reconnectId\":\"4669c230-dbb1-4b72-a3a1-f89c64ecf796\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"cfc3c03e-4e6a-4b84-8b60-441eca707900\",\"role\":\"device\",\"reconnectId\":\"92647db4-0151-456d-9997-cc5704cc9615\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"role\":\"device\",\"reconnectId\":\"4669c230-dbb1-4b72-a3a1-f89c64ecf796\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"489bb951-b591-40a4-a3c1-d535a4c576e6","service":"tv-app-hub","params":{},"code":"client_still_connected","level":"error","message":"Cannot register new clientClient still connected","stack":"Error: Client still connected\n    at RegistrationController._register (/Users/a.prokopev/Projects/tv-game/hub/src/controllers/registration.js:43:15)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)"}
+{"connection":"489bb951-b591-40a4-a3c1-d535a4c576e6","message":"Sending: {\"error\":\"client_still_connected\",\"params\":{},\"ok\":false,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Received: {\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"error\":\"client_still_connected\",\"params\":{},\"ok\":false,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"72710ddd-d7e4-43b4-af3d-13d385e5f4bd","message":"Sending: {\"from\":\"09c85312-523b-4972-b721-1aff085e4120\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f020c132-b3ef-49b6-b5de-216cd2e40879","message":"Sending: {\"from\":\"09c85312-523b-4972-b721-1aff085e4120\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"09c85312-523b-4972-b721-1aff085e4120\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"09c85312-523b-4972-b721-1aff085e4120\",\"direction\":\"display2device\",\"body\":{\"command\":\"test\"},\"ok\":true,\"type\":\"exchange\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3587d59d-2b61-41fb-aa27-b4699aeebec9","message":"Client 4ae55ba1-b401-49a8-83af-6d680b565468 disconnected, because connection 3587d59d-2b61-41fb-aa27-b4699aeebec9 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 4ae55ba1-b401-49a8-83af-6d680b565468 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Sending: {\"from\":\"4ae55ba1-b401-49a8-83af-6d680b565468\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"f3eaeb88-dcaf-460c-8aad-d5aa37298aae","message":"Client 08f9e7ce-ed19-4d1d-ba29-13fd203ff78a disconnected, because connection f3eaeb88-dcaf-460c-8aad-d5aa37298aae closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 08f9e7ce-ed19-4d1d-ba29-13fd203ff78a has been disconnected, notifying his devices: [\"4ae55ba1-b401-49a8-83af-6d680b565468\"]","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"d5976108-9829-400f-aaca-a7cb1536a239","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"d5976108-9829-400f-aaca-a7cb1536a239","message":"Client 5104e58f-e7ee-4d72-a41a-fd445d87b88a disconnected, because connection d5976108-9829-400f-aaca-a7cb1536a239 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 5104e58f-e7ee-4d72-a41a-fd445d87b88a has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Sending: {\"from\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Sending: {\"id\":\"632eb48f-b5c1-49fc-9734-dc12b99e7c8d\",\"role\":\"display\",\"reconnectId\":\"f31ab287-1e97-4ff0-909a-9dba282546bf\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"632eb48f-b5c1-49fc-9734-dc12b99e7c8d\",\"role\":\"display\",\"reconnectId\":\"f31ab287-1e97-4ff0-909a-9dba282546bf\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"632eb48f-b5c1-49fc-9734-dc12b99e7c8d\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"eded76e8-612d-4efe-af51-2b77f3cbba13","message":"Received: {\"role\":\"device\",\"displayId\":\"632eb48f-b5c1-49fc-9734-dc12b99e7c8d\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Sending: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"eded76e8-612d-4efe-af51-2b77f3cbba13","message":"Sending: {\"id\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"role\":\"device\",\"reconnectId\":\"5b670ca8-c4da-4290-abfb-afaa22ea4ee9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"role\":\"device\",\"reconnectId\":\"5b670ca8-c4da-4290-abfb-afaa22ea4ee9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"f020c132-b3ef-49b6-b5de-216cd2e40879","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"f020c132-b3ef-49b6-b5de-216cd2e40879","message":"Client cfc3c03e-4e6a-4b84-8b60-441eca707900 disconnected, because connection f020c132-b3ef-49b6-b5de-216cd2e40879 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device cfc3c03e-4e6a-4b84-8b60-441eca707900 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Sending: {\"from\":\"cfc3c03e-4e6a-4b84-8b60-441eca707900\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"72710ddd-d7e4-43b4-af3d-13d385e5f4bd","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"72710ddd-d7e4-43b4-af3d-13d385e5f4bd","message":"Client b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0 disconnected, because connection 72710ddd-d7e4-43b4-af3d-13d385e5f4bd closed","level":"info","service":"tv-app-hub"}
+{"message":"Device b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Sending: {\"from\":\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"23a3e57d-77e1-4664-b2c9-6bc88004701e","message":"Client 09c85312-523b-4972-b721-1aff085e4120 disconnected, because connection 23a3e57d-77e1-4664-b2c9-6bc88004701e closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 09c85312-523b-4972-b721-1aff085e4120 has been disconnected, notifying his devices: [\"b6e70b86-e493-49f3-bf83-fb8cd1ed9ba0\",\"cfc3c03e-4e6a-4b84-8b60-441eca707900\"]","level":"info","service":"tv-app-hub"}
+{"connection":"90342a09-8e6b-4b8b-8706-96b9f92ac523","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"90342a09-8e6b-4b8b-8706-96b9f92ac523","message":"Client 6401f3f5-1b93-40ce-ad93-d89f1d9da8c5 disconnected, because connection 90342a09-8e6b-4b8b-8706-96b9f92ac523 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 6401f3f5-1b93-40ce-ad93-d89f1d9da8c5 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"from\":\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d074d872-cf86-40ab-a187-afd35f990bf3","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"d074d872-cf86-40ab-a187-afd35f990bf3","message":"Client cec86185-1e10-4680-bd7f-22dbf8809c7f disconnected, because connection d074d872-cf86-40ab-a187-afd35f990bf3 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device cec86185-1e10-4680-bd7f-22dbf8809c7f has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Sending: {\"from\":\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"63a3e06c-41a7-4aa7-a35a-c418dd75721b","message":"Client 68c62262-63cd-4102-86b4-2cd99cbdfcc0 disconnected, because connection 63a3e06c-41a7-4aa7-a35a-c418dd75721b closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 68c62262-63cd-4102-86b4-2cd99cbdfcc0 has been disconnected, notifying his devices: [\"cec86185-1e10-4680-bd7f-22dbf8809c7f\",\"6401f3f5-1b93-40ce-ad93-d89f1d9da8c5\"]","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"eded76e8-612d-4efe-af51-2b77f3cbba13","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"eded76e8-612d-4efe-af51-2b77f3cbba13","message":"Client b8e2843f-db20-4474-9acc-e4e10c8de88a disconnected, because connection eded76e8-612d-4efe-af51-2b77f3cbba13 closed","level":"info","service":"tv-app-hub"}
+{"message":"Device b8e2843f-db20-4474-9acc-e4e10c8de88a has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Sending: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"5b670ca8-c4da-4290-abfb-afaa22ea4ee9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Sending: {\"id\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"role\":\"display\",\"reconnectId\":\"0fa00e5e-8d73-405b-a29b-cdef1df344e3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"role\":\"display\",\"reconnectId\":\"0fa00e5e-8d73-405b-a29b-cdef1df344e3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3df40488-2e9f-4ce7-9afe-f0fee098f68c","message":"Received: {\"reconnectId\":\"5b670ca8-c4da-4290-abfb-afaa22ea4ee9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Sending: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3df40488-2e9f-4ce7-9afe-f0fee098f68c","message":"Sending: {\"id\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"role\":\"device\",\"reconnectId\":\"7c90a8d8-0ae7-4fee-a54c-2b8789545481\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc","message":"Received: {\"role\":\"device\",\"displayId\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Sending: {\"from\":\"94267423-9502-4cb7-bee9-c22366924646\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc","message":"Sending: {\"id\":\"94267423-9502-4cb7-bee9-c22366924646\",\"role\":\"device\",\"reconnectId\":\"345fd821-464b-4e8b-9a95-e0f585d273d5\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"94267423-9502-4cb7-bee9-c22366924646\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"94267423-9502-4cb7-bee9-c22366924646\",\"role\":\"device\",\"reconnectId\":\"345fd821-464b-4e8b-9a95-e0f585d273d5\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"role\":\"device\",\"reconnectId\":\"7c90a8d8-0ae7-4fee-a54c-2b8789545481\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Client 06eba9db-79eb-4817-b9df-236a5ae1cc8a disconnected, because connection d992ae71-40d3-4da8-8429-7bdc26bfa32c closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 06eba9db-79eb-4817-b9df-236a5ae1cc8a has been disconnected, notifying his devices: [\"94267423-9502-4cb7-bee9-c22366924646\"]","level":"info","service":"tv-app-hub"}
+{"connection":"5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc","message":"Sending: {\"from\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"06eba9db-79eb-4817-b9df-236a5ae1cc8a\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Sending: {\"id\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"role\":\"display\",\"reconnectId\":\"0c41a662-3535-42cf-9a3c-e9d1309521e9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"role\":\"display\",\"reconnectId\":\"0c41a662-3535-42cf-9a3c-e9d1309521e9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Received: {\"role\":\"device\",\"displayId\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Sending: {\"from\":\"adcaf518-222d-47b4-81d8-843caf8127be\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Sending: {\"id\":\"adcaf518-222d-47b4-81d8-843caf8127be\",\"role\":\"device\",\"reconnectId\":\"1795c1b8-0f7c-463d-b865-ace04389145b\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"adcaf518-222d-47b4-81d8-843caf8127be\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"adcaf518-222d-47b4-81d8-843caf8127be\",\"role\":\"device\",\"reconnectId\":\"1795c1b8-0f7c-463d-b865-ace04389145b\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Client 8c780d57-9095-4870-9fe0-8cc47c38a26e disconnected, because connection 2ac89dab-394d-4379-9b7a-4b2e80e42609 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 8c780d57-9095-4870-9fe0-8cc47c38a26e has been disconnected, notifying his devices: [\"adcaf518-222d-47b4-81d8-843caf8127be\"]","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Sending: {\"from\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"0c41a662-3535-42cf-9a3c-e9d1309521e9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b8559fdb-c391-46c2-8c77-50298ffacc34","message":"Received: {\"reconnectId\":\"0c41a662-3535-42cf-9a3c-e9d1309521e9\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Sending: {\"from\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b8559fdb-c391-46c2-8c77-50298ffacc34","message":"Sending: {\"id\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"role\":\"display\",\"reconnectId\":\"30660fc5-860a-4cac-81e8-963b582231d3\",\"devices\":[{\"id\":\"adcaf518-222d-47b4-81d8-843caf8127be\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc","message":"Client 94267423-9502-4cb7-bee9-c22366924646 disconnected, because connection 5ed595a1-2b6b-4599-a2a1-7fb89bbda8fc closed","level":"info","service":"tv-app-hub"}
+{"message":"Device 94267423-9502-4cb7-bee9-c22366924646 has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"d992ae71-40d3-4da8-8429-7bdc26bfa32c","message":"Sending: {\"from\":\"94267423-9502-4cb7-bee9-c22366924646\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"e0d3094c-3365-44d6-bb33-08b0251cac8a","message":"Client 71aec4f0-7e64-4bfd-a283-d5d054ce7764 disconnected, because connection e0d3094c-3365-44d6-bb33-08b0251cac8a closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 71aec4f0-7e64-4bfd-a283-d5d054ce7764 has been disconnected, notifying his devices: [\"5104e58f-e7ee-4d72-a41a-fd445d87b88a\"]","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"role\":\"display\",\"reconnectId\":\"30660fc5-860a-4cac-81e8-963b582231d3\",\"devices\":[{\"id\":\"adcaf518-222d-47b4-81d8-843caf8127be\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Received: {\"role\":\"display\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Sending: {\"id\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"role\":\"display\",\"reconnectId\":\"1b4af851-3070-4c61-a4db-e4170a89d7d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"role\":\"display\",\"reconnectId\":\"1b4af851-3070-4c61-a4db-e4170a89d7d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"role\":\"device\",\"displayId\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Received: {\"role\":\"device\",\"displayId\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Sending: {\"from\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Sending: {\"id\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\",\"role\":\"device\",\"reconnectId\":\"efc4d97b-fbea-4b96-ade8-69c64d2b8822\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\",\"ok\":true,\"type\":\"device_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\",\"role\":\"device\",\"reconnectId\":\"efc4d97b-fbea-4b96-ade8-69c64d2b8822\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Connection closed: 1005 ","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Client 2934d544-4527-4058-872f-a7d56eb71ba4 disconnected, because connection 492b5648-ea3c-4c35-9f86-9b9096270417 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 2934d544-4527-4058-872f-a7d56eb71ba4 has been disconnected, notifying his devices: [\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\"]","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Sending: {\"from\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Sending: {\"reconnectId\":\"1b4af851-3070-4c61-a4db-e4170a89d7d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"2341cd51-469d-435b-8e67-cb86bc8b2906","message":"Received: {\"reconnectId\":\"1b4af851-3070-4c61-a4db-e4170a89d7d3\",\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Sending: {\"from\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"2341cd51-469d-435b-8e67-cb86bc8b2906","message":"Sending: {\"id\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"role\":\"display\",\"reconnectId\":\"9517946e-7e06-410b-b517-40537efa8c8a\",\"devices\":[{\"id\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"from\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"display_connected\"}","level":"info","service":"tv-app-hub"}
+{"message":"Received: {\"id\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"role\":\"display\",\"reconnectId\":\"9517946e-7e06-410b-b517-40537efa8c8a\",\"devices\":[{\"id\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\"}],\"ok\":true,\"type\":\"register\"}","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"connection":"2341cd51-469d-435b-8e67-cb86bc8b2906","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"2341cd51-469d-435b-8e67-cb86bc8b2906","message":"Client 2934d544-4527-4058-872f-a7d56eb71ba4 disconnected, because connection 2341cd51-469d-435b-8e67-cb86bc8b2906 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 2934d544-4527-4058-872f-a7d56eb71ba4 has been disconnected, notifying his devices: [\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\"]","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Sending: {\"from\":\"2934d544-4527-4058-872f-a7d56eb71ba4\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"51356644-e344-48e4-80e0-d7a105e7e64e","message":"Client b5821aba-7d3b-47da-84dc-9b020b9dc1ad disconnected, because connection 51356644-e344-48e4-80e0-d7a105e7e64e closed","level":"info","service":"tv-app-hub"}
+{"message":"Device b5821aba-7d3b-47da-84dc-9b020b9dc1ad has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"492b5648-ea3c-4c35-9f86-9b9096270417","message":"Sending: {\"from\":\"b5821aba-7d3b-47da-84dc-9b020b9dc1ad\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"b8559fdb-c391-46c2-8c77-50298ffacc34","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"b8559fdb-c391-46c2-8c77-50298ffacc34","message":"Client 8c780d57-9095-4870-9fe0-8cc47c38a26e disconnected, because connection b8559fdb-c391-46c2-8c77-50298ffacc34 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 8c780d57-9095-4870-9fe0-8cc47c38a26e has been disconnected, notifying his devices: [\"adcaf518-222d-47b4-81d8-843caf8127be\"]","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Sending: {\"from\":\"8c780d57-9095-4870-9fe0-8cc47c38a26e\",\"ok\":true,\"type\":\"display_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"50847a1f-ca92-444d-9ed9-df1094c8d7ad","message":"Client adcaf518-222d-47b4-81d8-843caf8127be disconnected, because connection 50847a1f-ca92-444d-9ed9-df1094c8d7ad closed","level":"info","service":"tv-app-hub"}
+{"message":"Device adcaf518-222d-47b4-81d8-843caf8127be has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"2ac89dab-394d-4379-9b7a-4b2e80e42609","message":"Sending: {\"from\":\"adcaf518-222d-47b4-81d8-843caf8127be\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"3df40488-2e9f-4ce7-9afe-f0fee098f68c","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"3df40488-2e9f-4ce7-9afe-f0fee098f68c","message":"Client b8e2843f-db20-4474-9acc-e4e10c8de88a disconnected, because connection 3df40488-2e9f-4ce7-9afe-f0fee098f68c closed","level":"info","service":"tv-app-hub"}
+{"message":"Device b8e2843f-db20-4474-9acc-e4e10c8de88a has been disconnected, notifying his display...","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Sending: {\"from\":\"b8e2843f-db20-4474-9acc-e4e10c8de88a\",\"ok\":true,\"type\":\"device_disconnected\"}","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"9c821cca-ff5c-453a-9a4a-61f9fde517a1","message":"Client 632eb48f-b5c1-49fc-9734-dc12b99e7c8d disconnected, because connection 9c821cca-ff5c-453a-9a4a-61f9fde517a1 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 632eb48f-b5c1-49fc-9734-dc12b99e7c8d has been disconnected, notifying his devices: [\"b8e2843f-db20-4474-9acc-e4e10c8de88a\"]","level":"info","service":"tv-app-hub"}
+{"connection":"489bb951-b591-40a4-a3c1-d535a4c576e6","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"489bb951-b591-40a4-a3c1-d535a4c576e6","message":"Client undefined disconnected, because connection 489bb951-b591-40a4-a3c1-d535a4c576e6 closed","level":"info","service":"tv-app-hub"}
+{"connection":"1c2808f2-a253-4fe9-987f-9a99fa82f4b7","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"1c2808f2-a253-4fe9-987f-9a99fa82f4b7","message":"Client 0a7c4567-1afb-4454-a9ba-589f3a56b6c4 disconnected, because connection 1c2808f2-a253-4fe9-987f-9a99fa82f4b7 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 0a7c4567-1afb-4454-a9ba-589f3a56b6c4 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"connection":"490412a7-0f16-4bb6-9026-ef607a657663","message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"connection":"490412a7-0f16-4bb6-9026-ef607a657663","message":"Client 0c7672d8-b390-49a0-b9f1-8dec5bd55bd2 disconnected, because connection 490412a7-0f16-4bb6-9026-ef607a657663 closed","level":"info","service":"tv-app-hub"}
+{"message":"Display 0c7672d8-b390-49a0-b9f1-8dec5bd55bd2 has been disconnected, notifying his devices: []","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"service":"tv-app-hub","name":"MongoNetworkError","errorLabels":["TransientTransactionError"],"level":"error","message":"Cannot connect to the mongodbfailed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]","stack":"MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]\n    at Pool.<anonymous> (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/topologies/server.js:433:11)\n    at Pool.emit (events.js:193:13)\n    at createConnection (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/connection/pool.js:562:14)\n    at connect (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/connection/pool.js:985:11)\n    at makeConnection (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/connection/connect.js:40:11)\n    at callback (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/connection/connect.js:262:5)\n    at Socket.err (/Users/a.prokopev/Projects/tv-game/node_modules/mongodb/lib/core/connection/connect.js:287:7)\n    at Object.onceWrapper (events.js:281:20)\n    at Socket.emit (events.js:193:13)\n    at emitErrorNT (internal/streams/destroy.js:91:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)\n    at processTicksAndRejections (internal/process/task_queues.js:81:17)"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}
+{"message":"Stopping server...","level":"info","service":"tv-app-hub"}
+{"message":"Connection closed: 1006 ","level":"info","service":"tv-app-hub"}

@@ -10,12 +10,12 @@ module.exports = class ConnectionsManager {
     this._logger = logger
   }
 
-  async create(socket) {
+  async create(socket, remote) {
     const connectionId = uuidv4()
 
     const connLogger = this._logger.child({ connection: connectionId });
 
-    const connection = new Connection(connectionId, socket, { logger: connLogger, isClient: false })
+    const connection = new Connection(connectionId, socket, { logger: connLogger, isClient: false, remote })
 
     this._connections[connectionId] = connection
 

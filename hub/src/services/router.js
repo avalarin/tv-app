@@ -5,8 +5,8 @@ module.exports = class Router {
     this._clientsStore = clientsStore
   }
 
-  async manage(socket) {
-    const connection = await this._connectionsManager.create(socket)
+  async manage(socket, remote) {
+    const connection = await this._connectionsManager.create(socket, remote)
     this._manage(connection)
   }
 

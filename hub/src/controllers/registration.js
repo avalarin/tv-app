@@ -54,12 +54,12 @@ module.exports = class RegistrationController {
 
     switch (role) {
       case 'display':
-        const display = await this._registrationService.registerDisplay(appName)
+        const display = await this._registrationService.registerDisplay(appName, connection.remote)
         await this._notifyDevices(display, connection)
         return display
       
       case 'device':
-        const device = await this._registrationService.registerDevice(displayId)
+        const device = await this._registrationService.registerDevice(displayId, connection.remote)
         await this._notifyDisplay(device, connection)
         return device
      
@@ -95,7 +95,7 @@ module.exports = class RegistrationController {
   async _notifyDisplay(device, connection) {
     // TODO move to events
     // TODO check if display not connected
-    const displayConnection = await this._connectionsManager.findConnectionByClientId(device.display.id)
+    const displayConnection = await this._connectionsManager.findConnectionByClientId(device.display)
     displayConnection.send('device_connected', { from: device.id })
 
     connection.onClose(() => {

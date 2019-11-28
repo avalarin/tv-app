@@ -39,8 +39,8 @@ module.exports = class App {
     this._server = createServer(app)
     this._wss = new WebSocket.Server({ server: this._server, path: "/ws" })
 
-    this._wss.on('connection', async (socket) => {
-      this._router.manage(socket)
+    this._wss.on('connection', async (socket, req) => {
+      this._router.manage(socket, { ip: req.socket.remoteAddress })
     })
   }
 
@@ -70,7 +70,7 @@ module.exports = class App {
         reject(err)
       })
       db.once('open', () => {
-        this._logger.error('Hub has been connected to the mongodb')
+        this._logger.info('Hub has been connected to the mongodb')
         resolve()
       })
     })

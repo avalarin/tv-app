@@ -8,6 +8,8 @@ module.exports = class Connection {
     this._incoming = new Channel()
     this._isClient = options.isClient
     this._isAlive = true
+  
+    this.remote = options.remote || { ip: 'unknown' }
 
     this._listen()
 

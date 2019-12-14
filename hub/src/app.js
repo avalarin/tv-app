@@ -5,7 +5,8 @@ const mongoose = require('mongoose')
 
 const log = require('./logging')
 
-const ClientsStore = require('./services/clients')
+const ClientsService = require('./services/clients')
+const ClientsStore = require('./store/clients')
 const ConnectionsManager = require('./services/connections')
 const Router = require('./services/router')
 const RegistrationService = require('./services/registration')
@@ -16,8 +17,9 @@ module.exports = class App {
   constructor(config) {
     this._logger = log.createLogger({ label: 'HUB' })
   
-    const clientsStore = new ClientsStore()
-    const registrationService = new RegistrationService(clientsStore, this._logger)
+    const clientsStore = ClientsStore.create(config)
+    const clientsService = new ClientsService(clientsStore)
+    const registrationService = new RegistrationService(clientsService, this._logger)
     
     const connectionsManager = new ConnectionsManager(this._logger)
 
@@ -45,7 +47,7 @@ module.exports = class App {
   }
 
   async start() { 
-    if (this._config.mongodb.enable) {
+    if (this._config.mongodb && this._config.mongodb.enable) {
       await this._connectMongodb()
     }
 

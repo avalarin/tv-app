@@ -1,28 +1,28 @@
 const uuidv4 = require('uuid/v4')
-const Client = require('../models/client')
 
-module.exports = class ClientsStore {
-  constructor() {
+module.exports = class ClientsService {
+  constructor(store) {
+    this._store = store
   }
 
   findClientByReconnectId(reconnectId) {
-    return Client.findOne({ reconnectId }).exec()
+    return this._store.findClientByReconnectId(reconnectId)
   }
 
   findDisplayById(id) {
-    return Client.findOne({ id, role: 'display' }).exec()
+    return this._store.findById(id, 'display')
   }
 
   findDeviceById(id) {
-    return Client.findOne({ id, role: 'device' }).exec()
+    return this._store.findById(id, 'device')
   }
 
   findById(id, role) {
-    return Client.findOne({ id, role }).exec()
+    return this._store.findById(id, role)
   }
 
   async createDisplay(appName, remote) {
-    const display = new Client({
+    const display = {
       id: uuidv4(),
       role: 'display',
       reconnectId: uuidv4(),
@@ -33,15 +33,15 @@ module.exports = class ClientsStore {
         lastHeartbeatAt: Date.now()
       },
       remote
-    })
+    }
 
-    await display.save()
+    await this._store.save(display)
 
     return display
   }
   
   async createDevice(displayId, appName, remote) {
-    const device = new Client({
+    const device = {
       id: uuidv4(),
       role: 'device',
       reconnectId: uuidv4(),
@@ -52,31 +52,23 @@ module.exports = class ClientsStore {
         lastHeartbeatAt: Date.now()
       },
       remote
-    })
+    }
 
-    await device.save()
+    await this._store.save(display)
 
     return device
   }
 
   async useReconnectIdAndUpdate(reconnectId) {
     const newReconnectId = uuidv4()
-    return await Client.findOneAndUpdate(
-      { reconnectId },
-      { reconnectId: newReconnectId },
-      { useFindAndModify: true, new: true }
-    )
+    return await this._store.useReconnectIdAndUpdate(reconnectId, newReconnectId)
   }
 
   async pushNewDevice(displayId, deviceId) {
-    return await Client.findOneAndUpdate(
-      { id: displayId, role: 'display' },
-      { $push: { devices: deviceId } },
-      { useFindAndModify: true, new: true }
-    )
+    return await this._store.pushNewDevice(displayId, deviceId)
   }
 
   async deleteById(id) {
-    await Client.deleteOne({ id })
+    await this._store.deleteById(id)
   }
 }

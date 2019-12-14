@@ -1,68 +1,74 @@
 const uuidv4 = require('uuid/v4')
-const { clone } = require('../utils')
 
-module.exports = class ClientsStore {
-  constructor() {
-    this._clients = { }
-    this._reconnects = { }
+module.exports = class ClientsService {
+  constructor(store) {
+    this._store = store
   }
 
   findClientByReconnectId(reconnectId) {
-    const client = this._reconnects[reconnectId]
-    const cloned = client && clone(client) || null
-    return Promise.resolve(cloned)
+    return this._store.findClientByReconnectId(reconnectId)
   }
 
   findDisplayById(id) {
-    return this.findById(id, 'display')
+    return this._store.findById(id, 'display')
   }
 
   findDeviceById(id) {
-    return this.findById(id, 'device')
+    return this._store.findById(id, 'device')
   }
 
   findById(id, role) {
-    var client = this._clients[id]
-    if (client && role && client.role != role) {
-      client = null
+    return this._store.findById(id, role)
+  }
+
+  async createDisplay(appName, remote) {
+    const display = {
+      id: uuidv4(),
+      role: 'display',
+      reconnectId: uuidv4(),
+      devices: [],
+      appName,
+      status: {
+        createdAt: Date.now(),
+        lastHeartbeatAt: Date.now()
+      },
+      remote
     }
 
-    const cloned = client && clone(client) || null
-    return Promise.resolve(cloned)
+    await this._store.save(display)
+
+    return display
+  }
+  
+  async createDevice(displayId, appName, remote) {
+    const device = {
+      id: uuidv4(),
+      role: 'device',
+      reconnectId: uuidv4(),
+      display: displayId,
+      appName,
+      status: {
+        createdAt: Date.now(),
+        lastHeartbeatAt: Date.now()
+      },
+      remote
+    }
+
+    await this._store.save(display)
+
+    return device
   }
 
-  save(client) {
-    if (client.id) return Promise.reject("Field 'id' should not be set")
-
-    const cloned = clone(client)
-    cloned.id = uuidv4()
-
-    this._clients[cloned.id] = cloned
-    this._reconnects[cloned.reconnectId] = cloned
-
-    return this.findById(cloned.id)
+  async useReconnectIdAndUpdate(reconnectId) {
+    const newReconnectId = uuidv4()
+    return await this._store.useReconnectIdAndUpdate(reconnectId, newReconnectId)
   }
 
-  update(client) {
-    if (!client.id) return Promise.reject("Field 'id' is required")
-
-    if (!this._clients[client.id]) return Promise.reject("Cliend not found")
-
-    const cloned = clone(client)
-    this._clients[client.id] = cloned
-    this._reconnects[client.reconnectId] = cloned
-
-    return this.findById(client.id)
+  async pushNewDevice(displayId, deviceId) {
+    return await this._store.pushNewDevice(displayId, deviceId)
   }
 
   async deleteById(id) {
-    if (!this._clients[id]) return Promise.reject("Cliend not found")
-
-    const client = await this.findById(cloned.id)
-
-    delete this._clients[id]
-    delete this._reconnects[client.reconnectId]
-
-    return cloned
+    await this._store.deleteById(id)
   }
 }

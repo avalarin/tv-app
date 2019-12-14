@@ -5,9 +5,17 @@ const app = new App({
   listenHost: '0.0.0.0',
   web: {
 
+  },
+  mongodb: {
+    enable: true,
+    url: 'mongodb://localhost/tv-app'
   }
 })
-app.start()
+
+app.start().catch(e => {
+  console.error('Cannot start application', e)
+  process.exit(-1)
+})
 
 process.on('SIGINT', function() {
   app.stop().then(() => process.exit())

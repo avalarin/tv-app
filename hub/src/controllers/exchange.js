@@ -6,7 +6,7 @@ module.exports = class ExchangeController {
 
   async onExchange({ body }, _, { client }) {
     if (client.role == 'device') {
-      const displayId = client.display.id
+      const displayId = client.display
       const displayConnection = await this._connectionsManager.findConnectionByClientId(displayId)
       if (!displayConnection) {
         throw new Error(`Cannot find connection for display ${displayId}`)

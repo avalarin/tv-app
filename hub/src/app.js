@@ -23,13 +23,13 @@ module.exports = class App {
     
     const connectionsManager = new ConnectionsManager(this._logger)
 
-    const registrationController = new RegistrationController(registrationService, connectionsManager, clientsStore, this._logger)
+    const registrationController = new RegistrationController(registrationService, connectionsManager, clientsService, this._logger)
     const exchangeController = new ExchangeController(connectionsManager, this._logger)
     
     const router = new Router({
       'register': registrationController.onRegister.bind(registrationController),
       'exchange': exchangeController.onExchange.bind(exchangeController)
-    }, connectionsManager, clientsStore)
+    }, connectionsManager, clientsService)
 
     this._router = router
 

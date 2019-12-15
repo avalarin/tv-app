@@ -9,13 +9,13 @@ describe('Messaging', () => {
     let displayConn, display, device1Conn, device1, device2Conn, device2
 
     beforeEach(async () => {
-      displayConn = await env.connect()
+      displayConn = await env.connect('DISPLAY')
       display = await utils.createDisplay(displayConn)
   
       device1Conn = await env.connect('DEVICE-1')
       device1 = await utils.createDevice(device1Conn, display.id)
   
-      device2Conn = await env.connect('DEVICE-1')
+      device2Conn = await env.connect('DEVICE-2')
       device2 = await utils.createDevice(device2Conn, display.id)
     })
 

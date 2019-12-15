@@ -1,3 +1,5 @@
+const { clone } = require('../../utils')
+
 module.exports = class ClientsStore {
   constructor() {
     this._clients = { }

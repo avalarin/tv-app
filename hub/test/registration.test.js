@@ -17,8 +17,6 @@ describe("Registration", () => {
     expect(response.appName).toBe('test')
     expect(response.id).not.toBeNull()
     expect(response.reconnectId).not.toBeNull()
-
-    utils.closeConnections(conn)
   })
 
   test('should register device', async () => {
@@ -28,19 +26,17 @@ describe("Registration", () => {
     const conn2 = await env.connect()
     conn2.send('register', { role: 'device', displayId: display.id })
 
-    const response1 = await conn1.receive()
+    const response1 = await conn1.receive({ description: 'device_connected message' })
     expect(response1.ok).toBe(true)
     expect(response1.type).toBe('device_connected')
     expect(response1.id).not.toBeNull()
 
-    const response2 = await conn2.receive()
+    const response2 = await conn2.receive({ description: 'register message' })
     expect(response2.ok).toBe(true)
     expect(response2.type).toBe('register')
     expect(response2.role).toBe('device')
     expect(response2.id).not.toBeNull()
     expect(response2.reconnectId).not.toBeNull()
-
-    utils.closeConnections(conn1, conn2)
   })
 
   test('should not register twice, in one connection', async () => {
@@ -50,7 +46,5 @@ describe("Registration", () => {
     const result = await utils.createDisplay(conn)
     expect(result.ok).toBe(false)
     expect(result.error).toBe('already_registered')
-
-    utils.closeConnections(conn)
   })
 })

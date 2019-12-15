@@ -66,7 +66,7 @@ module.exports = class Connection {
   }
 
   receive(options = {}) {
-    const mappedOptions = { timeout: options.timeout }
+    const mappedOptions = { timeout: options.timeout, description: options.description }
     if (options.filter) {
       mappedOptions.filter = (item) => item.type == options.filter
     }
@@ -145,7 +145,7 @@ class Channel {
   }
 
   receiveOne(key, options = {}) {
-    return promiseWithTimeout(options.timeout, (resolve, _) => {
+    return promiseWithTimeout(options, (resolve, _) => {
       const subscription = this.subscribe(key, item => {
         if (options.filter && !options.filter(item)) {
           return
@@ -158,11 +158,13 @@ class Channel {
   }
 }
 
-function promiseWithTimeout(timeout = 1000, func) {
+function promiseWithTimeout(options = {}, func) {
+  const timeout = options.timeout || 1000
+  const description = options.description || 'unknown operation'
   return new Promise((resolve, reject) => {
     if (timeout) {
       setTimeout(() => {
-        reject('Timeout')
+        reject(`Timeout occurred while waiting for '${description}'`)
       }, timeout)
     }
 

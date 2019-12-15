@@ -1,11 +1,11 @@
 const { AppError, ERROR_ALREADY_REGISTERED, ERROR_CLIENT_STILL_CONNECTED } = require('tv-app-common')
 
 module.exports = class RegistrationController {
-  constructor(registrationService, connectionsManager, clientsStore, logger) {
+  constructor(registrationService, connectionsManager, clients, logger) {
     this._logger = logger
     this._registrationService = registrationService
     this._connectionsManager = connectionsManager
-    this._clientsStore = clientsStore
+    this._clients = clients
   }
 
   async onRegister(data, connection) {
@@ -38,7 +38,7 @@ module.exports = class RegistrationController {
 
   async _register({role, appName, displayId, reconnectId}, connection) {
     if (reconnectId) {
-      const client = await this._clientsStore.findClientByReconnectId(reconnectId)
+      const client = await this._clients.findClientByReconnectId(reconnectId)
       if (client && await this._connectionsManager.findConnectionByClientId(client.id)) {
         throw new AppError(ERROR_CLIENT_STILL_CONNECTED, {})
       }
@@ -78,7 +78,7 @@ module.exports = class RegistrationController {
     })
 
     connection.onClose(async () => {
-      const actualDisplay = await this._clientsStore.findDisplayById(display.id)
+      const actualDisplay = await this._clients.findDisplayById(display.id)
       if (!actualDisplay) {
         this._logger.info(`Display ${display.id} has been disconnected, notifying his devices...`)
         this._logger.error(`Display ${display.id} not found, can't notify his devices about disconnection`)

@@ -54,7 +54,7 @@ module.exports = class ClientsService {
       remote
     }
 
-    await this._store.save(display)
+    await this._store.save(device)
 
     return device
   }

@@ -11,6 +11,7 @@
     "start-hub": "yarn --cwd ./hub start",
     "start-web": "yarn --cwd ./web start",
 
+    "test": "yarn --cwd ./hub test",
     "build": "bash ./scripts/build.sh"
   }
 }
